@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "sampledeploy",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authsampledeploycea97b57"
+    },
+    "additionalAuthTypes": [],
+    "conflictResolution": {}
+  }
+}
