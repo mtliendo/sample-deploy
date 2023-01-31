@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 
 import { withAuthenticator } from '@aws-amplify/ui-react'
-import { listTodos } from '../src/graphql/Queries'
+import { listTodos } from './graphql/Queries'
 import { API } from 'aws-amplify'
 
 function App({ signOut }) {
